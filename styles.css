@@ -9,6 +9,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     color: #333;
+  
 }
 
 .container {
@@ -75,7 +76,8 @@ body {
     font-family: 'Georgia', serif;
 }
 
-button {
+a {
+    text-decoration: none;
     background-color: #e91e63;
     color: #fff;
     border: none;
@@ -87,7 +89,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+a:hover {
     background-color: #d81b60;
 }
 
